@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {stat} from 'fs';
-// hoi
+
 function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
